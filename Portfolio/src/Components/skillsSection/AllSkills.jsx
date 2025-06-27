@@ -2,13 +2,15 @@ import SingleSkill from "./SingleSkill";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiLaravel } from "react-icons/si";
+import { SiPhp } from "react-icons/si";
 
 const skills = [
   {
@@ -24,20 +26,20 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "PHP",
+    icon: SiPhp,
   },
   {
     skill: "ReactJS",
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Larvel",
+    icon: SiLaravel,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "Express.JS",
+    icon: SiExpress,
   },
   {
     skill: "TailwindCSS",
@@ -61,7 +63,7 @@ const AllSkills = () => {
               <SingleSkill
                 key={index}
                 text={item.skill}
-                imgSvg={<item.icon />}
+                imgSvg={<item.icon className="text-7xl text-black" />}
               />
             </motion.div>
           );
