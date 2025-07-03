@@ -1,6 +1,6 @@
 
 import './App.css'
-import NavbarMain from "./components/navbar/NavbarMain";
+import NavbarMain from "./Components/navbar/NavbarMain"; 
 import HeroMain from "./components/heroSection/HeroMain";
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import FooterMain from "./components/footer/FooterMain";
