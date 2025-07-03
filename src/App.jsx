@@ -1,14 +1,14 @@
 
 import './App.css'
 import NavbarMain from "./Components/navbar/NavbarMain"; 
-import HeroMain from "./components/heroSection/HeroMain";
-import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
-import FooterMain from "./components/footer/FooterMain";
-import HeroGradient from "./components/heroSection/HeroGradient";
-import ProjectsMain from "./components/projectsSection/ProjectsMain";
-import SkillsMain from "./components/skillsSection/SkillsMain";
-import SubSkills from "./components/skillsSection/SubSkills";
-import SubHeroMain from "./components/subHeroSection/SubHeroMain";
+import HeroMain from "./Components/heroSection/HeroMain";
+import AboutMeMain from "./Components/aboutMeSection/AboutMeMain";
+import FooterMain from "./Components/footer/FooterMain";
+import HeroGradient from "./Components/heroSection/HeroGradient";
+import ProjectsMain from "./Components/projectsSection/ProjectsMain";
+import SkillsMain from "./Components/skillsSection/SkillsMain";
+import SubSkills from "./Components/skillsSection/SubSkills";
+import SubHeroMain from "./Components/subHeroSection/SubHeroMain";
 import ContactMeMain from "./Components/contactMeSection/ContactMeMain";
 
 
