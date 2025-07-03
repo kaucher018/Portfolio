@@ -8,14 +8,14 @@ const projects = [
     name: "LogeAchi.com",
     year: "Mar2024",
     align: "right",
-    image: "../../public/images/website-img-1.png", 
+    image: "/images/website-img-1.png", 
     link: "https://github.com/kaucher018/ecommerce-website-by-laravel",
   },
   {
     name: "StyleLoop",
     year: "Sept2024",
     align: "left",
-    image: "../../public/images/website-img-2.jpg",
+    image: "/images/website-img-2.jpg",
     link: "https://github.com/kaucher018/Ecommerce-react-laravel-",
   },
   {
