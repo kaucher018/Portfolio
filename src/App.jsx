@@ -1,34 +1,31 @@
-
-import './App.css'
-import NavbarMain from "./Components/navbar/NavbarMain"; 
-import HeroMain from "./Components/heroSection/HeroMain";
-import AboutMeMain from "./Components/aboutMeSection/AboutMeMain";
-import FooterMain from "./Components/footer/FooterMain";
-import HeroGradient from "./Components/heroSection/HeroGradient";
-import ProjectsMain from "./Components/projectsSection/ProjectsMain";
-import SkillsMain from "./Components/skillsSection/SkillsMain";
-import SubSkills from "./Components/skillsSection/SubSkills";
-import SubHeroMain from "./Components/subHeroSection/SubHeroMain";
-import ContactMeMain from "./Components/contactMeSection/ContactMeMain";
-
+import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
+import ContactMeMain from "./components/contactMeSection/ContactMeMain";
+import ExperienceMain from "./components/experienceSection/ExperienceMain";
+import FooterMain from "./components/footer/FooterMain";
+import HeroGradient from "./components/heroSection/HeroGradient";
+import HeroMain from "./components/heroSection/HeroMain";
+import NavbarMain from "./components/navbar/NavbarMain";
+import ProjectsMain from "./components/projectsSection/ProjectsMain";
+import SkillsMain from "./components/skillsSection/SkillsMain";
+import SubSkills from "./components/skillsSection/SubSkills";
+import SubHeroMain from "./components/subHeroSection/SubHeroMain";
 
 function App() {
-
-
   return (
-    <>
-     <NavbarMain/>
-     <HeroMain/>
+    <main className="font-body text-white relative overflow-hidden">
+      <NavbarMain />
+      <HeroMain />
       <HeroGradient />
       <SubHeroMain />
       <AboutMeMain />
       <SkillsMain />
       <SubSkills />
+      <ExperienceMain />
       <ProjectsMain />
       <ContactMeMain />
       <FooterMain />
-    </>
-  )
+    </main>
+  );
 }
 
-export default App
+export default App;

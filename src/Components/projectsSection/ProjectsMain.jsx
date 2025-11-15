@@ -5,32 +5,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "LogeAchi.com",
-    year: "Mar2024",
+    name: "LuxoBD -No.1 wallet brand in BD",
+    year: "Sept2025 (Live Project)",
     align: "right",
-    image: "/images/website-img-1.png", 
-    link: "https://github.com/kaucher018/ecommerce-website-by-laravel",
+    image: "../../public/images/website-img-1.jpg",
+    link: "https://www.luxobd.com",
   },
   {
-    name: "StyleLoop",
-    year: "Sept2024",
+    name: "Style loop [Laravel+React]",
+    year: "Jan 2025",
     align: "left",
-    image: "/images/website-img-2.jpg",
+    image: "../../public/images/website-img-130.jpg",
     link: "https://github.com/kaucher018/Ecommerce-react-laravel-",
   },
   {
-    name: "MERN-Stack-ecommerce-project",
-    year: "Jan2025",
+    name: "LogeAchi.com [Full stack laravel]",
+    year: "Dec 2024",
     align: "right",
-    image: "https://github.com/kaucher018/MERN-Stack-ecommerce-project-",
-    link: "https://github.com/kaucher018/MERN-Stack-ecommerce-project-",
+    image: "../../public/images/website-img-10.png",
+    link: "https://github.com/kaucher018/ecommerce-website-by-laravel",
   },
   {
-    name: "Magic-Wallet (A Netbeans Project)",
-    year: "May2024",
+    name: "SnapTok [ social media website ]",
+    year: "Runnig Project",
     align: "left",
-    image: "https://github.com/kaucher018/Magic-Wallet",
-    link: "https://github.com/kaucher018/MERN-Stack-ecommerce-project-",
+    image: "../../public/images/Alternative-Social-Media-Platform-Blog-Resized.webp",
+    link: "https://github.com/kaucher018/Snaptok-social-media-laravel-",
   },
 ];
 

@@ -1,18 +1,45 @@
+import SingleExperience from "./SingleExperience";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
+
+const experiences = [
+  {
+    job: "Web Developer(Laravel)",
+    company: "Creative Software",
+    date: "2025 - Present",
+    responsibilities: [
+      "Analyzed client needs: delivered projects on time.",
+" Built and maintained RESTful APIs, implemented MVC architecture for scalability",
+"Integrated payment gateways and APIs for seamless user experience.",
+    ]
+  },
+ 
+ 
+];
+
 const ExperienceTopRight = () => {
   return (
-    <div className="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
-      <p className="text-lg text-center text-lightGrey">
-        I specialize in{" "}
-        <span className="font-bold text-white">
-          React and modern JavaScript
-        </span>
-        , leveraging best practices to create scalable and maintainable
-        solutions. <br />
-        My experience spans working on diverse projects, from small business
-        websites to{" "}
-        <span className="font-bold text-white">complex front-end systems</span>,
-        always aiming for clean code and exceptional user experiences.
-      </p>
+    <div className="flex md:flex-row sm:flex-col items-center justify-between">
+      {experiences.map((experience, index) => {
+        return (
+          <>
+            <SingleExperience key={index} experience={experience} />
+            {index < 2 ? (
+              <motion.div
+                variants={fadeIn("right", 0)}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.7 }}
+              >
+               
+              </motion.div>
+            ) : (
+              ""
+            )}
+          </>
+        );
+      })}
     </div>
   );
 };
