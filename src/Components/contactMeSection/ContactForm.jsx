@@ -56,7 +56,7 @@ const ContactForm = () => {
           name="from_name"
           placeholder="Your Name"
           required
-          className="h-12 rounded-lg px-2 border border-orange-500"
+          className="h-12 rounded-lg px-2 border border-orange-500 text-black"
           value={name}
           onChange={handleName}
         />
@@ -65,7 +65,7 @@ const ContactForm = () => {
           name="from_email"
           placeholder="Your Email"
           required
-          className="h-12 rounded-lg border border-orange-500 px-2"
+          className="h-12 rounded-lg border border-orange-500 px-2 text-black"
           value={email}
           onChange={handleEmail}
         />
@@ -76,7 +76,7 @@ const ContactForm = () => {
           cols="50"
           placeholder="Message"
           required
-          className=" rounded-lg border border-orange-500 p-2"
+          className=" rounded-lg border border-orange-500 p-2 text-black"
           value={message}
           onChange={handleMessage}
         />
